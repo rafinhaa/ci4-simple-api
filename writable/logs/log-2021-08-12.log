@@ -1,0 +1,293 @@
+CRITICAL - 2021-08-12 09:39:00 --> Invalid file: welcome_message.php
+#0 /var/www/html/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Common.php(1271): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 /var/www/html/app/Controllers/Home.php(9): view('welcome_message')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-12 09:44:46 --> Cannot declare class App\Controllers\Empregados because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 09:46:06 --> Cannot declare class App\Controllers\Empregados because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 09:46:46 --> syntax error, unexpected ';', expecting identifier (T_STRING) or function (T_FUNCTION) or const (T_CONST) or \\ (T_NS_SEPARATOR)
+#0 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/v...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-12 09:46:52 --> Class 'App\Controllers\App\Models\Empregados' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:00 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:06 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:20 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:21 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:21 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:21 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:21 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:22 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:22 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:22 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:47:22 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:05 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:06 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:06 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:07 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:28 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:29 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:29 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:29 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:30 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:31 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:31 --> Class 'App\Controllers\App\Models\EmpregadosModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:49:55 --> Class 'App\Controllers\model' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->index()
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:58:01 --> Call to a member function first() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->show('99')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:58:23 --> Call to a member function limit() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->show('99')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 09:58:27 --> Call to a member function limit() on null
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->show('99')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-12 10:18:17 --> Column 'name' cannot be null
+CRITICAL - 2021-08-12 10:18:17 --> Column 'name' cannot be null
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO `em...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 /var/www/html/vendor/codeigniter4/framework/system/Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/html/vendor/codeigniter4/framework/system/BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 /var/www/html/vendor/codeigniter4/framework/system/Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 /var/www/html/app/Controllers/Empregados.php(31): CodeIgniter\Model->insert(Array)
+#8 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->create()
+#9 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#10 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-08-12 10:18:51 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in /var/www/html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php on line 599
+#0 /var/www/html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php(599): dot_array_search('name', NULL)
+#1 /var/www/html/vendor/codeigniter4/framework/system/HTTP/IncomingRequest.php(559): CodeIgniter\HTTP\IncomingRequest->getJsonVar('name', false, NULL, NULL)
+#2 /var/www/html/app/Controllers/Empregados.php(28): CodeIgniter\HTTP\IncomingRequest->getVar('name')
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->create()
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-12 11:13:07 --> Class 'App\Controllers\EmployeeModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->update('2')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 11:13:27 --> Class 'App\Controllers\EmployeeModel' not found
+#0 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->update('2')
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-12 11:22:14 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/v...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-12 11:41:32 --> Undefined variable: model
+#0 /var/www/html/app/Controllers/Empregados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 89, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->delete('19')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-12 11:42:03 --> Undefined variable: model
+#0 /var/www/html/app/Controllers/Empregados.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/a...', 89, Array)
+#1 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(928): App\Controllers\Empregados->delete('19')
+#2 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empregados))
+#3 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-12 11:42:12 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';' or ','
+#0 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/v...')
+#1 /var/www/html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
