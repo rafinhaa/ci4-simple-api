@@ -8,7 +8,7 @@ use CodeIgniter\RESTful\ResourceController;
 class Empregados extends ResourceController
 {
 
-	protected $modelName = 'App\Models\EmpregadosModel';
+    protected $modelName = 'App\Models\EmpregadosModel';
     protected $format    = 'array';
 
 	/**
@@ -49,7 +49,7 @@ class Empregados extends ResourceController
 	public function show($id = null){
       //$this->model = new EmpregadosModel();
       $data = $this->model->find($id);
-	  if($data){
+	  if(!empty($data)){
             return $this->respond($data);
         }else{
             return $this->failNotFound('Empregado não encontrado');
@@ -87,7 +87,7 @@ class Empregados extends ResourceController
     public function delete($id = null){
         //$this->model = new EmpregadosModel();
         $data = $this->model->delete($id);
-        if($data){
+        if(!empty($data)){
             $this->model->delete($id);
             $response = [
                 'status'   => 200,
