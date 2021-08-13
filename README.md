@@ -72,19 +72,19 @@ $routes->patch('empregados/(:segment)',    'empregados::update/$1');
 $routes->delete('empregados/(:segment)',   'empregados::delete/$1');
 ```
 
-Get all employees. Method: GET
+#### Get all employees. Method: GET
 http://localhost:8080/empregados
 
-Get single employee. Method: GET
+#### Get single employee. Method: GET
 http://localhost:8080/empregados/2
 
-Create an employee. POST multipart with name and email.
+#### Create an employee. POST multipart with name and email.
 http://localhost:8080/empregados
 
-Update an employee. Verb HTTP PUT with name and email.
+#### Update an employee. Verb HTTP PUT with name and email.
 http://localhost:8080/employee/4
 
-Delete an employee. Verb HTTP DELETE.
+#### Delete an employee. Verb HTTP DELETE.
 http://localhost:8080/employee/4
 
 ## 📄 Changelog
